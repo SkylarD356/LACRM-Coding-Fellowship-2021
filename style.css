@@ -1,3 +1,36 @@
 body{
-    background-color:white;
+    background-color:#c0c9cc;
+}
+.info{
+    background-color: white;
+     margin: auto;
+     width: 65%;
+     height: 44%;
+     border: 2%;
+     border-radius: 2%;
+}
+
+.words{
+    margin-left: 1%;
+    top: 20px;
+    padding-top: 1%;
+}
+
+.hr2{
+    color:#c0c9cc;
+    border-width: 5px;
+    border-top-style: dashed;
+}
+
+.hr3{
+    color:#c0c9cc;
+    border-width: 5px;
+    border-top-style: dashed;
+}
+
+.pic1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
 }
