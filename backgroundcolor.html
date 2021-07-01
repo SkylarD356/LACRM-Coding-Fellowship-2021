@@ -1,0 +1,22 @@
+
+<body>
+    <h1>Hello World!</h1>
+    <button type="button" onclick="myFunction()">Set background color</button>
+
+    <script>
+
+        let randomInt = [
+            "red",
+            "pink",
+            "green"
+        ];
+
+
+        function myFunction() {
+
+            let rando =Math.floor(Math.random() * 3);
+           
+            document.body.style.backgroundColor= randomInt[rando];
+        }
+        </script>
+    </body>
